@@ -10,8 +10,8 @@ export const ColumnDefinition: IColumnDefs = {
             enableOnHeaderItemRender:true,  
             enableOnRowItemClick:false,
             enableOnRowItemRender:true,
-            enableContextMenu:true
-           
+            enableContextMenu:true,
+            columnWidth:'8%'
         },
         {
             headerName: 'First Name',
@@ -21,6 +21,7 @@ export const ColumnDefinition: IColumnDefs = {
             enableOnRowItemClick:false,
             enableOnRowItemRender:true,
             enableContextMenu:true,
+            columnWidth:'20%',
             contextMenu:[
                 {
                     value:'Item1',
@@ -53,6 +54,7 @@ export const ColumnDefinition: IColumnDefs = {
             enableOnRowItemClick:true,
             enableOnRowItemRender:true,
             enableContextMenu:true,
+            columnWidth:'20%',
             contextMenu:[
                 {
                     value:'Item5',
@@ -76,6 +78,7 @@ export const ColumnDefinition: IColumnDefs = {
             enableOnRowItemClick:true,
             enableOnRowItemRender:true,
             enableContextMenu:true,
+            columnWidth:'20%',
             contextMenu:[
                 {
                     value:'Item8',
@@ -92,6 +95,7 @@ export const ColumnDefinition: IColumnDefs = {
             enableOnRowItemClick:true,
             enableOnRowItemRender:true,
             enableContextMenu:true,
+            columnWidth:'30%',
             contextMenu:[
                 {
                     value:'Item9',
