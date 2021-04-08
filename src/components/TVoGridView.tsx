@@ -32,6 +32,9 @@ export default class TVoGridView extends React.Component<ITVoGridViewProps, ITVo
 
   private getData(){
     let personalInfo: any[] = [];
+    if(this.state.dataSource.length === this._dataSource.length)
+         return;
+
     var endRow = this.state.startRow + this.state.rowPerPage;
     for(var i=this.state.startRow;i < endRow;i++){
         personalInfo.push(this._dataSource[i]);
