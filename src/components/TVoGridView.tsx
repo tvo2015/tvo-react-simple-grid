@@ -126,6 +126,8 @@ export default class TVoGridView extends React.Component<ITVoGridViewProps, ITVo
             onContextMenuRender={this._onContextMenuRender}
             onRowItemClick={this._onRowItemClick}
             disableGridScroll={false}
+            headerBackgroundColor={'#EAEDED'}
+            headerColor={'#2C3E50'}
           />
         )}
       </div>
