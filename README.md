@@ -2,6 +2,8 @@
 
 This example grid view is using tvo-react-simple-grid component.
 
+![image](https://github.com/tvo2015/tvo-react-simple-grid/blob/master/gridview.PNG)
+
 ## Run example
 
 In the project directory, you can run:
